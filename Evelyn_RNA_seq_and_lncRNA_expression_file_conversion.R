@@ -1,6 +1,8 @@
 ## Script to identify lncRNA genes of interest that are present in Evelyn Tran's
 ## RNA-seq data:
 
+## Data originally sent in email 5/24/2021 from Michele Ramos Correa
+
 ## Load devtools
 if (!require("devtools", quietly = TRUE)){
 
