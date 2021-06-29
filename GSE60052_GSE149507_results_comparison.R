@@ -216,3 +216,11 @@ top_genes_by_TvN_expression_differential_rank_positive <- top_genes_by_TvN_expre
     decreasing = FALSE
   ),
 ]
+
+## Write out the combined results to a table:
+write.table(
+  GSE60052_GSE149507_results_df,
+  file="C:/Users/Danie/Desktop/SCLC_project/GSE60052_GSE149507_results_comparison_output.tsv",
+  sep='\t',
+  quote= FALSE
+)
